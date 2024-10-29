@@ -1,0 +1,23 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.epilogue {
+  font-family: "Epilogue", sans-serif;
+}
+
+/* Apply the font to all elements */
+body {
+  font-family: "Epilogue", sans-serif;
+}
+
+@font-face {
+  font-family: 'HFF-Greek-ExCon';
+  src:url('HFF-Greek-ExCon.ttf.woff') format('woff'),
+      url('HFF-Greek-ExCon.ttf.svg#HFF-Greek-ExCon') format('svg'),
+      url('HFF-Greek-ExCon.ttf.eot'),
+      url('HFF-Greek-ExCon.ttf.eot?#iefix') format('embedded-opentype'); 
+      font-weight: normal;
+      font-style: normal;
+}

@@ -1,0 +1,13 @@
+.grainy-overlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('https://www.transparenttextures.com/patterns/asfalt-dark.png'); /* You can replace this with a local grainy texture image if needed */
+    opacity: 0.4; /* Adjust the opacity to make it subtle or strong */
+    z-index: 0;
+    pointer-events: none; /* Prevents interfering with interactions */
+  }
+  
