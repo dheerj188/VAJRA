@@ -15,15 +15,15 @@ Team VAJRA is building a lightweight scheduler on the master node. This will aim
 
 ![Screenshot 2024-10-29 at 2 05 26 PM](https://github.com/user-attachments/assets/ccad0526-3cbf-4fc8-a3b3-96b0c2e4cbfd)
 
-# Embedded Deep Learning Research 
+### Embedded Deep Learning Research 
 Team VAJRA focuses on delivering reconfigurable compute facilities to their users to elevate performance at the edge. We aim to deploy openCL-based kernels on the device to ensure Power-Time-Memory are optimized throughout the inference cycle. 
 
-# Software for Optimization: VAJRA model Analyzer (VMA)
+### Software for Optimization: VAJRA model Analyzer (VMA)
 VMA enables model parallelism for deep learning on our multi-node system. It optimally analyzes the memory requirement for each model, and optimally partitions it to fit on the system. We scale our parameters upto 400 million parameters using the VMA for VAJRA. 
 
 ![Screenshot 2024-10-29 at 2 05 32 PM](https://github.com/user-attachments/assets/84173fab-7314-4647-87cd-5c0793558597)
 
-# Applications on VAJRA (Future Work)
+### Applications on VAJRA (Future Work)
 
 
 
