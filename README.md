@@ -10,18 +10,18 @@ Hardware: VAJRA hosts a Raspberry Pi-5 as a master node, that acts like a gatewa
                          Figure-1: VAJRA System
 
 ![Screenshot 2024-10-29 at 2 03 08 PM](https://github.com/user-attachments/assets/7e495db6-249e-4bec-ae9c-4ff1c14ae527)
-                        Figure-2: System Arhcitecture
+                        Figure-2: System Architecture
 
 # Platform Specific Project: System Scheduler 
 Team VAJRA is building a lightweight scheduler on the master node. This will aim to co-optimize latency and throughput. 
 
-![Screenshot 2024-10-29 at 2 05 26 PM](https://github.com/user-attachments/assets/ccad0526-3cbf-4fc8-a3b3-96b0c2e4cbfd)
+![Screenshot 2024-10-30 at 1 25 28 PM](https://github.com/user-attachments/assets/4d5eb17c-d33b-4028-be73-237f7c804eb6)
 
 ### Embedded Deep Learning Research 
-Team VAJRA focuses on delivering reconfigurable compute facilities to their users to elevate performance at the edge. We aim to deploy openCL-based kernels on the device to ensure Power-Time-Memory are optimized throughout the inference cycle. 
+Team VAJRA focuses on delivering reconfigurable compute facilities to users to elevate performance at the edge. We aim to deploy openCL-based kernels on the device to ensure Power-Time-Memory are optimized throughout the inference cycle. 
 
 ### Software for Optimization: VAJRA model Analyzer (VMA)
-VMA enables model parallelism for deep learning on our multi-node system. It optimally analyzes the memory requirement for each model, and optimally partitions it to fit on the system. We scale our parameters upto 400 million parameters using the VMA for VAJRA. 
+VMA enables model parallelism for deep learning on our multi-node system. It optimally analyzes the memory requirement for each model, and optimally partitions it to fit on the system. We scale our parameters up to 400 million parameters using the VMA for VAJRA. 
 
 ![Screenshot 2024-10-29 at 2 05 32 PM](https://github.com/user-attachments/assets/84173fab-7314-4647-87cd-5c0793558597)
 
